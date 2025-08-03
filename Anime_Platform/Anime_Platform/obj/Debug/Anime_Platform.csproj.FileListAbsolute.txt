@@ -1,0 +1,8 @@
+D:\C#\Anime_Platform\Anime_Platform\bin\Debug\Anime_Platform.exe.config
+D:\C#\Anime_Platform\Anime_Platform\bin\Debug\Anime_Platform.exe
+D:\C#\Anime_Platform\Anime_Platform\bin\Debug\Anime_Platform.pdb
+D:\C#\Anime_Platform\Anime_Platform\obj\Debug\Anime_Platform.csproj.AssemblyReference.cache
+D:\C#\Anime_Platform\Anime_Platform\obj\Debug\Anime_Platform.csproj.CoreCompileInputs.cache
+D:\C#\Anime_Platform\Anime_Platform\obj\Debug\Anime_Platform.exe
+D:\C#\Anime_Platform\Anime_Platform\obj\Debug\Anime_Platform.pdb
+D:\C#\Anime_Platform\Anime_Platform\obj\Debug\Anime_Platform.exe.config
