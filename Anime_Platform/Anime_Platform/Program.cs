@@ -15,7 +15,7 @@ namespace Anime_Platform
             h1.ShowInfo();
             Console.WriteLine();
             Villain v1 = new Villain("madra","465","Naruto",80,"Win");
-            v1.ShowInfo();
+            v1.ShowInfo();   
             Console.WriteLine();
             v1.EvilScore = 70;
             v1.ShowInfo();
@@ -26,3 +26,4 @@ namespace Anime_Platform
         }
     }
 }
+
