@@ -17,7 +17,7 @@ namespace PRACTICE
             arr[2] = new int[3];
             arr[3] = new int[4];
 
-            for (int i = 1; i <= arr.Length; i++) { 
+            for (int i = 1; i < arr.Length; i++) { 
             
                 for (int j = 0; j < arr[i].Length; j++)
                 {
@@ -39,3 +39,4 @@ namespace PRACTICE
         }
     }
 }
+
