@@ -24,7 +24,7 @@ namespace Anime_Platform
         {
             get { return powerLevel; }
             set {
-               powerLevel = value;
+               powerLevel = value;   
             }
 
         }
@@ -64,3 +64,4 @@ namespace Anime_Platform
         }
     }
 }
+
