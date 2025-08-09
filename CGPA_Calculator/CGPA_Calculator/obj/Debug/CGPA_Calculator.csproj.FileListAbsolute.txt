@@ -1,0 +1,8 @@
+D:\C#\CGPA_Calculator\CGPA_Calculator\bin\Debug\CGPA_Calculator.exe.config
+D:\C#\CGPA_Calculator\CGPA_Calculator\bin\Debug\CGPA_Calculator.exe
+D:\C#\CGPA_Calculator\CGPA_Calculator\bin\Debug\CGPA_Calculator.pdb
+D:\C#\CGPA_Calculator\CGPA_Calculator\obj\Debug\CGPA_Calculator.csproj.AssemblyReference.cache
+D:\C#\CGPA_Calculator\CGPA_Calculator\obj\Debug\CGPA_Calculator.csproj.CoreCompileInputs.cache
+D:\C#\CGPA_Calculator\CGPA_Calculator\obj\Debug\CGPA_Calculator.exe
+D:\C#\CGPA_Calculator\CGPA_Calculator\obj\Debug\CGPA_Calculator.pdb
+D:\C#\CGPA_Calculator\CGPA_Calculator\obj\Debug\CGPA_Calculator.exe.config
