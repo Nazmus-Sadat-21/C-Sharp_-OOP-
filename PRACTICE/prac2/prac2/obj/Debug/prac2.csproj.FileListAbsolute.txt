@@ -1,0 +1,8 @@
+D:\C#\Basics\prac2\prac2\bin\Debug\prac2.exe.config
+D:\C#\Basics\prac2\prac2\bin\Debug\prac2.exe
+D:\C#\Basics\prac2\prac2\bin\Debug\prac2.pdb
+D:\C#\Basics\prac2\prac2\obj\Debug\prac2.csproj.AssemblyReference.cache
+D:\C#\Basics\prac2\prac2\obj\Debug\prac2.csproj.CoreCompileInputs.cache
+D:\C#\Basics\prac2\prac2\obj\Debug\prac2.exe
+D:\C#\Basics\prac2\prac2\obj\Debug\prac2.pdb
+D:\C#\Basics\prac2\prac2\obj\Debug\prac2.exe.config
