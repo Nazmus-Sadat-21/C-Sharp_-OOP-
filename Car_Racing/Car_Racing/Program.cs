@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace Car_Racing
 {
-    // Base Car Class
+    
     public abstract class Car
     {
         public string Name { get; private set; }
@@ -27,22 +27,22 @@ namespace Car_Racing
         }
     }
 
-    // Sports Car - Faster acceleration
+    
     public class SportsCar : Car
     {
         public SportsCar(string name) : base(name)
         {
-            Speed = 20; // m/turn
+            Speed = 20; 
         }
 
         public override void Drive()
         {
-            Speed += 0.5; // accelerates over time
+            Speed += 0.5; 
             base.Drive();
         }
     }
 
-    // Truck - Slower but stable
+    
     public class Truck : Car
     {
         public Truck(string name) : base(name)
@@ -56,7 +56,7 @@ namespace Car_Racing
         }
     }
 
-    // Formula One Car - Very fast but can slow down randomly
+   
     public class FormulaOneCar : Car
     {
         private Random rand = new Random();
@@ -68,7 +68,7 @@ namespace Car_Racing
 
         public override void Drive()
         {
-            if (rand.Next(1, 10) == 5) // random slowdown
+            if (rand.Next(1, 10) == 5) 
             {
                 Speed -= 5;
                 Console.WriteLine($"{Name} hit a minor issue and slowed down!");
@@ -81,7 +81,7 @@ namespace Car_Racing
         }
     }
 
-    // Track Class
+   
     public class Track
     {
         public double Length { get; private set; }
@@ -132,12 +132,12 @@ namespace Car_Racing
                 }
 
                 Console.WriteLine();
-                Thread.Sleep(500); // small delay for simulation
+                Thread.Sleep(500); 
             }
         }
     }
 
-    // Main Program
+   
     class Program
     {
         static void Main(string[] args)
@@ -155,3 +155,4 @@ namespace Car_Racing
         }
     }
 }
+
