@@ -14,7 +14,7 @@ namespace Anime_Platform
             Hero h1 = new Hero("Lufi","324","One Piece",900,"No",160);
             h1.ShowInfo();
             Console.WriteLine();
-            Villain v1 = new Villain("madra","465","Naruto",80,"Win");
+            Villain v1 = new Villain("madra","465","Naruto",80,"Win"); 
             v1.ShowInfo();   
             Console.WriteLine();
             v1.EvilScore = 70;
@@ -26,4 +26,5 @@ namespace Anime_Platform
         }
     }
 }
+
 
