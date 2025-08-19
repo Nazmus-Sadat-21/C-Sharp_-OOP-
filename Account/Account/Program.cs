@@ -14,6 +14,10 @@ namespace Account
             BankAccount acc1 = new BankAccount("Nazmus Sadat " , "12345678" , 500);
             BankAccount acc2 = new BankAccount("Jabir Aahmed ", "87654321", 2000);
             SavingsAccount sacc = new SavingsAccount("Nazmus Sadat ", "12345678", 500,0);
+
+
+
+            
             //acc1.showInfo();
             //acc1.Deposite(2000);
             //acc1.showInfo();
@@ -33,3 +37,4 @@ namespace Account
         }
     }
 }
+
