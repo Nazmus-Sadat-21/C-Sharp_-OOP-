@@ -1,0 +1,8 @@
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\bin\Debug\Student_Hostel_Managment.exe.config
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\bin\Debug\Student_Hostel_Managment.exe
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\bin\Debug\Student_Hostel_Managment.pdb
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\obj\Debug\Student_Hostel_Managment.csproj.AssemblyReference.cache
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\obj\Debug\Student_Hostel_Managment.csproj.CoreCompileInputs.cache
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\obj\Debug\Student_Hostel_Managment.exe
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\obj\Debug\Student_Hostel_Managment.pdb
+D:\C#\Student_Hostel_Managment\Student_Hostel_Managment\obj\Debug\Student_Hostel_Managment.exe.config
