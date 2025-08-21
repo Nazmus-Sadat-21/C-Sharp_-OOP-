@@ -14,8 +14,8 @@ namespace Student_Hostel_Managment
         string gender;
         string room_no;
         int rent_month;
-        public int balance ;
-
+        int balance;
+        int totalRentAmount;
         public Student() { }
 
         public Student(string name, string id, string gen, string room, int rent_month)
@@ -25,7 +25,10 @@ namespace Student_Hostel_Managment
             this.gender = gen;
             this.room_no = room;
             this.rent_month = rent_month;
-            
+            this.totalRentAmount = rent_month * 3000;
+            this.balance = totalRentAmount; 
+
+
         }
 
         public string s_name()
@@ -33,34 +36,47 @@ namespace Student_Hostel_Managment
             return this.student_name;
         }
 
-        public void Rent()
+        public int GetTotalRent()
         {
-            int amount = rent_month * 3000;
-            Console.WriteLine($"Total Rental Amount : {amount}");
+            return totalRentAmount;
+        }
+
+        public int GetBalance()
+        {
+            return balance;
         }
 
         public void pay(int p_amount)
         {
-            int amount = rent_month * 3000;
-            
             if (p_amount <= 0)
             {
-                Console.WriteLine($"Unpaid please clear your due amount");
-                balance += amount;
+                Console.WriteLine("Invalid payment amount! Amount must be greater than 0.");
+                return;
             }
-            else if (p_amount < amount)
-            {
-                Console.WriteLine($"Paid : {p_amount} , due amount : {amount - p_amount}");
-            }
-            else if (p_amount > amount) {
 
-                Console.WriteLine($"Paid : {p_amount} , advance paid amount : {p_amount - amount}");
-
-            }
-            else if(p_amount == amount) 
+            if (balance <= 0)
             {
-                Console.WriteLine($"Payment clear :)");
+                Console.WriteLine("No due amount remaining. Payment refunded.");
+                return;
             }
+
+            if (p_amount > balance)
+            {
+                Console.WriteLine($"Payment of {p_amount} exceeds due amount of {balance}. Only {balance} will be accepted.");
+                p_amount = balance; 
+            }
+
+            balance -= p_amount;
+
+            if (balance == 0)
+            {
+                Console.WriteLine("Payment complete! All dues cleared.");
+            }
+            else
+            {
+                Console.WriteLine($"Paid {p_amount}. Remaining due: {balance}");
+            }
+
         }
 
         public void ShowInfo()
@@ -70,13 +86,11 @@ namespace Student_Hostel_Managment
             Console.WriteLine($"Student Gender : {gender} ");
             Console.WriteLine($"Student Room No: {room_no} ");
             Console.WriteLine($"Rental Month   : {rent_month} ");
-            
-            Rent();
-
-            Console.WriteLine($"Due Balace   : {balance} ");
-
-
+            Console.WriteLine($"Total Rental Amount : {totalRentAmount}");
+            Console.WriteLine($"Paid Amount     : {totalRentAmount - balance}");
+            Console.WriteLine($"Due Balance     : {balance} ");
         }
 
     }
 }
+
