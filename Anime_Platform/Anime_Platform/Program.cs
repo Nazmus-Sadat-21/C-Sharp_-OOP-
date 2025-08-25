@@ -23,8 +23,16 @@ namespace Anime_Platform
             h1.MainCharacter = "Yes";
             h1.ShowInfo();
 
+
+
+
+
+
+
+            
         }
     }
 }
+
 
 
