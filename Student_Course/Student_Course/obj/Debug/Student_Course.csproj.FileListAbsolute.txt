@@ -1,0 +1,12 @@
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.csproj.AssemblyReference.cache
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.Form1.resources
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.Properties.Resources.resources
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.csproj.GenerateResource.cache
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.csproj.CoreCompileInputs.cache
+D:\C#\Student_Course\Student_Course\bin\Debug\Student_Course.exe.config
+D:\C#\Student_Course\Student_Course\bin\Debug\Student_Course.exe
+D:\C#\Student_Course\Student_Course\bin\Debug\Student_Course.pdb
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.exe
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.pdb
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.exe.config
+D:\C#\Student_Course\Student_Course\obj\Debug\Student_Course.Course.resources
