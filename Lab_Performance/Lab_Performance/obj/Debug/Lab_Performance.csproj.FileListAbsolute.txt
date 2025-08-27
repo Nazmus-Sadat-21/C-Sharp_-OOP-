@@ -1,0 +1,11 @@
+D:\C#\Lab_Performance\Lab_Performance\bin\Debug\Lab_Performance.exe.config
+D:\C#\Lab_Performance\Lab_Performance\bin\Debug\Lab_Performance.exe
+D:\C#\Lab_Performance\Lab_Performance\bin\Debug\Lab_Performance.pdb
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.csproj.AssemblyReference.cache
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.Form1.resources
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.Properties.Resources.resources
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.csproj.GenerateResource.cache
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.csproj.CoreCompileInputs.cache
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.exe
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.pdb
+D:\C#\Lab_Performance\Lab_Performance\obj\Debug\Lab_Performance.exe.config
