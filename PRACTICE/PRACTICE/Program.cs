@@ -26,6 +26,11 @@ namespace PRACTICE
             
             }
 
+
+
+
+            
+
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write("arr[{0}] = ", i);
@@ -39,4 +44,5 @@ namespace PRACTICE
         }
     }
 }
+
 
