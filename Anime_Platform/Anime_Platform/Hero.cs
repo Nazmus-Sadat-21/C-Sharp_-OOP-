@@ -8,6 +8,10 @@ namespace Anime_Platform
 {
     internal class Hero:Anime
     {
+
+
+
+    
         int powerLevel;
         string main_character;
         int no_of_epi;
@@ -64,4 +68,5 @@ namespace Anime_Platform
         }
     }
 }
+
 
