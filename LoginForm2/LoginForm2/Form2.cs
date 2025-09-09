@@ -24,14 +24,25 @@ namespace LoginForm2
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Form1 f = new Form1();
-            f.Show();
-            this.Hide();
+            if(this.Owner != null){
+                this.Owner.Show();
+            }
+           
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void vIewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

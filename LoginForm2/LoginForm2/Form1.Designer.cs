@@ -35,6 +35,9 @@
             this.login = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Email = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +61,7 @@
             // UserPass
             // 
             this.UserPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserPass.Location = new System.Drawing.Point(47, 248);
+            this.UserPass.Location = new System.Drawing.Point(47, 307);
             this.UserPass.Name = "UserPass";
             this.UserPass.Size = new System.Drawing.Size(290, 30);
             this.UserPass.TabIndex = 3;
@@ -68,7 +71,7 @@
             // 
             this.jhfds.AutoSize = true;
             this.jhfds.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jhfds.Location = new System.Drawing.Point(42, 208);
+            this.jhfds.Location = new System.Drawing.Point(42, 267);
             this.jhfds.Name = "jhfds";
             this.jhfds.Size = new System.Drawing.Size(106, 25);
             this.jhfds.TabIndex = 2;
@@ -79,11 +82,11 @@
             this.login.BackColor = System.Drawing.Color.RoyalBlue;
             this.login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.login.Location = new System.Drawing.Point(47, 308);
+            this.login.Location = new System.Drawing.Point(47, 367);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(290, 41);
             this.login.TabIndex = 4;
-            this.login.Text = "LogIn";
+            this.login.Text = "SignUp";
             this.login.UseVisualStyleBackColor = false;
             this.login.Click += new System.EventHandler(this.login_Click);
             // 
@@ -91,18 +94,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(158, 25);
+            this.label3.Location = new System.Drawing.Point(157, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 36);
+            this.label3.Size = new System.Drawing.Size(121, 36);
             this.label3.TabIndex = 5;
-            this.label3.Text = "LogIn";
+            this.label3.Text = "SignUp";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(344, 248);
+            this.label5.Location = new System.Drawing.Point(344, 307);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(62, 30);
             this.label5.TabIndex = 7;
@@ -112,11 +116,45 @@
             this.label5.MouseLeave += new System.EventHandler(this.label5_MouseLeave);
             this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
             // 
+            // Email
+            // 
+            this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Email.Location = new System.Drawing.Point(47, 232);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(290, 30);
+            this.Email.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(42, 192);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 25);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Email";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(47, 414);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(290, 41);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "LogIn";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(428, 389);
+            this.ClientSize = new System.Drawing.Size(447, 492);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Email);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.login);
@@ -142,6 +180,9 @@
         private System.Windows.Forms.Button login;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox Email;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -10,3 +10,4 @@ D:\C#\LoginForm2\LoginForm2\obj\Debug\LoginForm2.exe
 D:\C#\LoginForm2\LoginForm2\obj\Debug\LoginForm2.pdb
 D:\C#\LoginForm2\LoginForm2\obj\Debug\LoginForm2.exe.config
 D:\C#\LoginForm2\LoginForm2\obj\Debug\LoginForm2.Form2.resources
+D:\C#\LoginForm2\LoginForm2\obj\Debug\LoginForm2.LogIn.resources
