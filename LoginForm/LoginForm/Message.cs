@@ -13,6 +13,7 @@ namespace LoginForm
     public partial class Message : Form
     {
         public Message()
+
         {
             InitializeComponent();
         }
